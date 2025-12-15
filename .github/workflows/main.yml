@@ -19,6 +19,3 @@ jobs:
     - name: Lint with pylint (checks for errors)
       run: |
         make lint
-    - name: Format code
-      run: |
-        make format
